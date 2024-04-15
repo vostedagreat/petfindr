@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <title>Form Input Wave</title>
+</head>
+<body>
+<div class="container">
+    <h1><u><b>Sign In</b></u></h1>
+    <form action="includes/signin.inc.php" method="POST">
+        <div class="form-control">
+            <input type="text" name="text" required />
+            <label>Full Name:</label>
+        </div>
+        <div class="form-control">
+            <input type="email" name="e-mail" required />
+            <label>Email Address:</label>
+        </div>
+        <div class="form-control">
+            <input type="password" name="pass" class="pass-key" required  maxlength="6" minlength="4"/>
+            <label>Your Password</label>
+        </div>
+        <div class="form-control">
+            <input type="text" required maxlength="10" minlength="10" s/>
+            <label>Your Phone Number</label>
+        </div>
+        <button class="btn" >Submit</button>
+        <p class="text">Already have an account? <a href="login.html">Log In</a></p>
+    </form>
+</div>
+<script src="Assets/js/scripts.js"></script>
+</body>
+</html>
